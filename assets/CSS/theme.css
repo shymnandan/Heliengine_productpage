@@ -161,7 +161,7 @@
 @media only screen and (max-width:590px)  {
   .ftext{
     margin-top: 22%;
-    margin-left: 1%; 
+    margin-left: 0%; 
     position:absolute;
   }
 
