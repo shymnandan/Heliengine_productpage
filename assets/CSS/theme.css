@@ -39,6 +39,40 @@
 
   }
 
+  @media only screen and (max-width:590px)  {
+    .head_img{
+        background-image: url("../images/landing_pic.png");
+        background-size: cover;
+        position: relative;
+        min-height: 20vh;
+  }
+
+  .Heliengine{
+    position: absolute;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 52px;
+  
+    color: #2945A2;
+    margin-top: -40% !important;
+}
+
+.sub{
+  position: absolute;
+  margin-top: 40px;
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 52px;  
+  color: #2945A2;
+  margin-top: -32% !important;
+
+}
+  }
+
   /* @media only screen and (min-width:1200px) and (max-width:1500) {
 
     .foot_img {
