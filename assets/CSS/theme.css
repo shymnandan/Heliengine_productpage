@@ -87,7 +87,7 @@
         background-image: url("../images/landing_pic.png");
         background-size: cover;
         position: relative;
-        min-height: 20vh;
+        min-height: 30vh;
   }
 
   .Heliengine{
@@ -99,7 +99,7 @@
     line-height: 52px;
   
     color: #2945A2;
-    margin-top: -40% !important;
+    margin-top: -40%;
 }
 
 .sub{
@@ -111,10 +111,10 @@
   font-size: 12px;
   line-height: 52px;  
   color: #2945A2;
-  margin-top: -32% !important;
+  margin-top: -32%;
 
 }
-  }
+}
 
 
 
