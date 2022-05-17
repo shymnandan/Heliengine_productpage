@@ -44,7 +44,7 @@
         background-image: url("../images/landing_pic.png");
         background-size: cover;
         position: relative;
-        min-height: 20vh;
+        min-height: 20vh !important;
   }
 
   .Heliengine{
