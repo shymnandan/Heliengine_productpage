@@ -1,0 +1,163 @@
+/* .foot_img {
+    margin: 0;
+    background-size: 100% 600px;
+    background-image: url("../images/24258350-removebg-1@1x.png");
+    height: 600px;
+    position: fixed;
+  } */
+
+/* .text_on_img{
+    margin-top: 100px;
+} */
+
+.foot_img {
+  background-image: url("../images/half_globe.png");
+  background-size: cover;
+  position: relative;
+  min-height: 95vh;
+  min-width: 100%;
+
+  /* Make image center */
+  background-position: center center;  
+  /* Make image fixed */
+  /* background-attachment: fixed;   */
+  /* Not repeat images */
+  background-repeat: no-repeat;  
+  /* Set background size auto */
+  background-size: auto;
+
+  }
+
+  @media only screen and (min-width:993px)  {
+    .foot_img {
+      background-image: url("../images/24258350-removebg-1@1x.png");
+      background-size: cover;
+      position: relative;
+      min-height: 80vh;
+  
+    }
+
+  }
+
+  /* @media only screen and (min-width:1200px) and (max-width:1500) {
+
+    .foot_img {
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    
+
+  }
+  } */
+
+  .head_img{
+    background-image: url("../images/landing_pic.png");
+    background-size: cover;
+    position: relative;
+    min-height: 70vh;
+    min-width: 100%;
+
+    /* Make image center */
+    background-position: center center;  
+    /* Make image fixed */
+    /* background-attachment: fixed;   */
+    /* Not repeat images */
+    background-repeat: no-repeat;  
+    /* Set background size auto */
+    background-size: auto;
+    
+  
+
+  }
+
+@media only screen and (min-width:1440px)  {
+    .head_img{
+        background-image: url("../images/landing_pic.png");
+        background-size: cover;
+        position: relative;
+        min-height: 70vh;
+    
+
+  }
+  }
+
+
+
+  .Heliengine{
+      position: absolute;
+      font-family: 'Libre Baskerville';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 52px;
+    
+      color: #2945A2;
+  }
+
+  .sub{
+    position: absolute;
+    margin-top: 40px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;  
+    color: #2945A2;
+}
+ 
+@media only screen and ( max-width:1000px){
+  .Heliengine{
+    position: absolute;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 52px;
+  
+    color: #2945A2;
+}
+
+.sub{
+  position: absolute;
+  margin-top: 40px;
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 52px;  
+  color: #2945A2;
+
+
+}
+}
+
+
+
+.htext{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: normal;
+  color: #0f38c0;
+  text-decoration: #0f38c0;
+}
+
+
+.ftext{
+  margin-top: 17%;
+  margin-left: 8%; 
+  position:absolute;
+}
+
+@media only screen and (min-width:993px)  {
+  .ftext{
+    margin-top: 22%;
+    margin-left: 8%; 
+    position:absolute;
+  }
+
+}
+
+
+
+
